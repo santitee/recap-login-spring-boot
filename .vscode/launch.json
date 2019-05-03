@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Camp3Application",
+            "request": "launch",
+            "mainClass": "boot.Camp3Application",
+            "projectName": "boot"
+        }
+    ]
+}
