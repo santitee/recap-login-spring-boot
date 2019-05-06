@@ -6,6 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
+
 @Entity
 @Table(name = "app_role", uniqueConstraints = { @UniqueConstraint(name = "app_role_uk", columnNames = "role_name")})
 public class AppRole {
